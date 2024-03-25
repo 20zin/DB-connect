@@ -9,7 +9,7 @@ import org.apache.ibatis.annotations.Param;
 import java.util.List;
 import java.util.Optional;
 
-@Mapper
+@Mapper //xml에서 인식해줌
 public interface ItemMapper {
 
     void save(Item item);
