@@ -11,7 +11,8 @@ import java.util.Optional;
 
 @Mapper //xml에서 인식해줌
 public interface ItemMapper {
-
+    //구현체가 없는데 어떡해 동작하지? 인터페이스는 빈에 등록되지 않는데
+    //Mybatis 스프링 연동 모듈
     void save(Item item);
 
     void update(@Param("id") Long id,
