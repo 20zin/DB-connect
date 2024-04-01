@@ -15,6 +15,7 @@ public class Item {
     private String itemName;
     private Integer price;
     private Integer quantity;
+    private String username;
 
     public Item() {
     }
